@@ -5,15 +5,29 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 
 swp:Teacher rdf:type rdfs:Class .
-swp:Lesson rdf:type rdfs:Class .
+swp:Course rdf:type rdfs:Class .
 swp:Classroom rdf:type rdfs:Class .
 swp:Lecture rdf:type rdfs:Class .
 foaf:Person rdf:type rdfs:Class .
+
 swp:Teacher rdfs:subClassOf foaf:Person .
 
-swp:Teacher rdf:type rdf:Property .
-swp:Classroom rdf:type rdf:Property .
+swp:Καθηγητής rdf:type rdf:Property .
+swp:Αίθουσα rdf:type rdf:Property .
+swp:Έναρξη rdf:type rdf:Property .
+swp:Λήξη rdf:type rdf:Property .
+swp:Ημέρα rdf:type rdf:Property .
+swp:Μάθημα rdf:type rdf:Property .
 
-swp:Teacher rdfs:range swp:Lesson .
-swp:Classroom rdfs:domain swp:Lesson .
-
+swp:Καθηγητής rdfs:domain vocab:Lecture .
+swp:Καθηγητής rdfs:range vocab:Teacher .
+spw:Αίθουσα rdfs:domain vocab:Lecture .
+swp:Αίθουσα rdfs:range vocab:Classroom .
+spw:Έναρξη rdfs:domain vocab:Lecture .
+swp:Έναρξη rdfs:range xsd:time .
+spw:Λήξη rdfs:domain vocab:Lecture .
+swp:Λήξη rdfs:range xsd:time .
+swp:Ημέρα rdfs:domain vocab:Lecture .
+swp:Ημέρα rdfs:range xsd:string .
+swp:Μάθημα rdfs:domain vocab:Lecture .
+swp:Μάθημα rdfs:range vocab:Course .
