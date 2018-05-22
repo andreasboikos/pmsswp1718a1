@@ -1,3 +1,4 @@
+_:0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/c17boik/vocab#Lecture> . 
 _:0 <http://dilab77.ionio.gr/swp/c17boik/vocab#Ημέρα> "Δευτέρα".
 _:0 <http://dilab77.ionio.gr/swp/c17boik/vocab#Έναρξη> "15:00:00"^^<http://www.w3.org/2001/XMLSchema#time>.
 _:0 <http://dilab77.ionio.gr/swp/c17boik/vocab#Λήξη> "18:00:00"^^<http://www.w3.org/2001/XMLSchema#time>.
@@ -7,6 +8,7 @@ _:0 <http://dilab77.ionio.gr/swp/c17boik/vocab#Μάθημα> <http://dilab77.ion
 <http://dilab77.ionio.gr/swp/yo/resource/ΨΥΧ.ΛΟΓΙΣΜΙΚΟ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/c17boik/vocab#Course> . 
 _:0 <http://dilab77.ionio.gr/swp/c17boik/vocab#Αίθουσα> <http://dilab77.ionio.gr/swp/yo/resource/2>.
 <http://dilab77.ionio.gr/swp/yo/resource/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/c17boik/vocab#Classroom> . 
+_:1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/c17boik/vocab#Lecture> . 
 _:1 <http://dilab77.ionio.gr/swp/c17boik/vocab#Ημέρα> "Δευτέρα".
 _:1 <http://dilab77.ionio.gr/swp/c17boik/vocab#Έναρξη> "18:00:00"^^<http://www.w3.org/2001/XMLSchema#time>.
 _:1 <http://dilab77.ionio.gr/swp/c17boik/vocab#Λήξη> "21:00:00"^^<http://www.w3.org/2001/XMLSchema#time>.
@@ -16,6 +18,7 @@ _:1 <http://dilab77.ionio.gr/swp/c17boik/vocab#Μάθημα> <http://dilab77.ion
 <http://dilab77.ionio.gr/swp/yo/resource/ΑΣΦ.ΠΛΗΡ.ΣΥΣΤΗΜΑΤΩΝ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/c17boik/vocab#Course> . 
 _:1 <http://dilab77.ionio.gr/swp/c17boik/vocab#Αίθουσα> <http://dilab77.ionio.gr/swp/yo/resource/3>.
 <http://dilab77.ionio.gr/swp/yo/resource/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/c17boik/vocab#Classroom> . 
+_:2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/c17boik/vocab#Lecture> . 
 _:2 <http://dilab77.ionio.gr/swp/c17boik/vocab#Ημέρα> "Τρίτη".
 _:2 <http://dilab77.ionio.gr/swp/c17boik/vocab#Έναρξη> "15:00:00"^^<http://www.w3.org/2001/XMLSchema#time>.
 _:2 <http://dilab77.ionio.gr/swp/c17boik/vocab#Λήξη> "18:00:00"^^<http://www.w3.org/2001/XMLSchema#time>.
@@ -25,6 +28,7 @@ _:2 <http://dilab77.ionio.gr/swp/c17boik/vocab#Μάθημα> <http://dilab77.ion
 <http://dilab77.ionio.gr/swp/yo/resource/ΠΡΟΓΡ.ΣΗΜ.ΙΣΤ.> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/c17boik/vocab#Course> . 
 _:2 <http://dilab77.ionio.gr/swp/c17boik/vocab#Αίθουσα> <http://dilab77.ionio.gr/swp/yo/resource/Αρεταίος>.
 <http://dilab77.ionio.gr/swp/yo/resource/Αρεταίος> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/c17boik/vocab#Classroom> . 
+_:3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/c17boik/vocab#Lecture> . 
 _:3 <http://dilab77.ionio.gr/swp/c17boik/vocab#Ημέρα> "Τρίτη".
 _:3 <http://dilab77.ionio.gr/swp/c17boik/vocab#Έναρξη> "18:00:00"^^<http://www.w3.org/2001/XMLSchema#time>.
 _:3 <http://dilab77.ionio.gr/swp/c17boik/vocab#Λήξη> "21:00:00"^^<http://www.w3.org/2001/XMLSchema#time>.
@@ -34,6 +38,7 @@ _:3 <http://dilab77.ionio.gr/swp/c17boik/vocab#Μάθημα> <http://dilab77.ion
 <http://dilab77.ionio.gr/swp/yo/resource/ΒΙΟΠΛΗΡΟΦΟΡΙΚΗ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/c17boik/vocab#Course> . 
 _:3 <http://dilab77.ionio.gr/swp/c17boik/vocab#Αίθουσα> <http://dilab77.ionio.gr/swp/yo/resource/2>.
 <http://dilab77.ionio.gr/swp/yo/resource/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/c17boik/vocab#Classroom> . 
+_:4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/c17boik/vocab#Lecture> . 
 _:4 <http://dilab77.ionio.gr/swp/c17boik/vocab#Ημέρα> "Τετάρτη".
 _:4 <http://dilab77.ionio.gr/swp/c17boik/vocab#Έναρξη> "15:00:00"^^<http://www.w3.org/2001/XMLSchema#time>.
 _:4 <http://dilab77.ionio.gr/swp/c17boik/vocab#Λήξη> "18:00:00"^^<http://www.w3.org/2001/XMLSchema#time>.
@@ -43,6 +48,7 @@ _:4 <http://dilab77.ionio.gr/swp/c17boik/vocab#Μάθημα> <http://dilab77.ion
 <http://dilab77.ionio.gr/swp/yo/resource/ΗΛ.ΕΠΙΧΕΙΡ.> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/c17boik/vocab#Course> . 
 _:4 <http://dilab77.ionio.gr/swp/c17boik/vocab#Αίθουσα> <http://dilab77.ionio.gr/swp/yo/resource/2>.
 <http://dilab77.ionio.gr/swp/yo/resource/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/c17boik/vocab#Classroom> . 
+_:5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/c17boik/vocab#Lecture> . 
 _:5 <http://dilab77.ionio.gr/swp/c17boik/vocab#Ημέρα> "Τετάρτη".
 _:5 <http://dilab77.ionio.gr/swp/c17boik/vocab#Έναρξη> "18:00:00"^^<http://www.w3.org/2001/XMLSchema#time>.
 _:5 <http://dilab77.ionio.gr/swp/c17boik/vocab#Λήξη> "21:00:00"^^<http://www.w3.org/2001/XMLSchema#time>.
@@ -52,6 +58,7 @@ _:5 <http://dilab77.ionio.gr/swp/c17boik/vocab#Μάθημα> <http://dilab77.ion
 <http://dilab77.ionio.gr/swp/yo/resource/ΠΡΟΣ.&ΜΟΝΤΕΛΟΠΟΙΗΣΗ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/c17boik/vocab#Course> . 
 _:5 <http://dilab77.ionio.gr/swp/c17boik/vocab#Αίθουσα> <http://dilab77.ionio.gr/swp/yo/resource/2>.
 <http://dilab77.ionio.gr/swp/yo/resource/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/c17boik/vocab#Classroom> . 
+_:6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/c17boik/vocab#Lecture> . 
 _:6 <http://dilab77.ionio.gr/swp/c17boik/vocab#Ημέρα> "Πέμπτη".
 _:6 <http://dilab77.ionio.gr/swp/c17boik/vocab#Έναρξη> "18:00:00"^^<http://www.w3.org/2001/XMLSchema#time>.
 _:6 <http://dilab77.ionio.gr/swp/c17boik/vocab#Λήξη> "21:00:00"^^<http://www.w3.org/2001/XMLSchema#time>.
