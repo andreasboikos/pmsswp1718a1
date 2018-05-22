@@ -19,15 +19,15 @@ swp:Λήξη rdf:type rdf:Property .
 swp:Ημέρα rdf:type rdf:Property .
 swp:Μάθημα rdf:type rdf:Property .
 
-swp:Καθηγητής rdfs:domain vocab:Lecture .
-swp:Καθηγητής rdfs:range vocab:Teacher .
-spw:Αίθουσα rdfs:domain vocab:Lecture .
-swp:Αίθουσα rdfs:range vocab:Classroom .
-spw:Έναρξη rdfs:domain vocab:Lecture .
+swp:Καθηγητής rdfs:domain swp:Lecture .
+swp:Καθηγητής rdfs:range swp:Teacher .
+swp:Αίθουσα rdfs:domain swp:Lecture .
+swp:Αίθουσα rdfs:range swp:Classroom .
+swp:Έναρξη rdfs:domain swp:Lecture .
 swp:Έναρξη rdfs:range xsd:time .
-spw:Λήξη rdfs:domain vocab:Lecture .
+swp:Λήξη rdfs:domain swp:Lecture .
 swp:Λήξη rdfs:range xsd:time .
-swp:Ημέρα rdfs:domain vocab:Lecture .
+swp:Ημέρα rdfs:domain swp:Lecture .
 swp:Ημέρα rdfs:range xsd:string .
-swp:Μάθημα rdfs:domain vocab:Lecture .
-swp:Μάθημα rdfs:range vocab:Course .
+swp:Μάθημα rdfs:domain swp:Lecture .
+swp:Μάθημα rdfs:range swp:Course .
